@@ -8,6 +8,10 @@ h1 {
     font-size: 50px;
 }
 
+.orange-color {
+    color: orange;
+}
+
 .name-color {
     color: orange;
 }
@@ -69,5 +73,32 @@ h1 {
 }
 
 .experince-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.flexible-container {
     display: flex;
+    padding-left: 25px;
+}
+
+.Experience-item {
+
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 25px;
+    padding: 15px;
+
+
+}
+
+#baby {
+    border-left: 7px solid sandybrown;
+}
+
+#stack {
+    border-left: 7px solid aquamarine;
 }
